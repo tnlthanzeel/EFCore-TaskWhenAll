@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20181125045717_added certificate table and certificate provider.cs" />
+    <Compile Remove="Migrations\20181125050108_added certificate table and certificate provider.cs" />
+    <Compile Remove="Migrations\20181125061102_added naviagtion properties to lookups.cs" />
+    <Compile Remove="Migrations\20181125151334_test.cs" />
+    <Compile Remove="Migrations\20181130172722_test.cs" />
+    <Compile Remove="Migrations\20181224182643_tranasction id added to certificate.cs" />
+    <Compile Remove="Migrations\20181224182741_tranasction id added to certificate.cs" />
+    <Compile Remove="Migrations\20181225054828_ added certificate id.cs" />
+    <Compile Remove="Migrations\20181225085218_ added is deleted t transaction table.cs" />
+    <Compile Remove="Migrations\20190106065907_domain base class added.cs" />
+    <Compile Remove="Migrations\20190106070104_domain base class added.cs" />
+    <Compile Remove="Migrations\20190106081758_edited by.cs" />
+    <Compile Remove="Migrations\20190106133811_origin table added.cs" />
+    <Compile Remove="Migrations\20190106134046_origin table added.cs" />
+    <Compile Remove="Migrations\20190106134822_origin.cs" />
+    <Compile Remove="Migrations\20190106135052_add orogin  to certifiate.cs" />
+    <Compile Remove="Migrations\20190107023342_unique key.cs" />
+    <Compile Remove="Migrations\20190107023611_unique key.cs" />
+    <Compile Remove="Migrations\20190127124832_export id changed to guid.cs" />
+    <Compile Remove="Migrations\20190127125456_export id changed to guid.cs" />
+    <Compile Remove="Migrations\20190127130034_export id changed to guid.cs" />
+    <Compile Remove="Migrations\20190127130206_drop export.cs" />
+    <Compile Remove="Migrations\20190127131042_export id changed to guid.cs" />
+    <Compile Remove="Migrations\20190128142745_change pk gemexport tablee.cs" />
+    <Compile Remove="Migrations\20190128173546_add export number auto.cs" />
+    <Compile Remove="Migrations\20190128173958_add export number auto.cs" />
+    <Compile Remove="Migrations\20190128180119_add export number autoa.cs" />
+    <Compile Remove="Migrations\20190128180242_add export number autoan.cs" />
+    <Compile Remove="Migrations\20190128181028_add export number autoanaz.cs" />
+    <Compile Remove="Migrations\20190203162117_isAny.cs" />
+    <Compile Remove="Migrations\20190205161650_asEcportAny.cs" />
+    <Compile Remove="Migrations\20190319143822_add third party certification.cs" />
+    <Compile Remove="Migrations\20190319143822_add third party certification.Designer.cs" />
+    <Compile Remove="Migrations\20190414025110_added approver table.cs" />
+    <Compile Remove="Migrations\20190414025110_added approver table.Designer.cs" />
+    <Compile Remove="Migrations\20190414025302_added approver table.cs" />
+    <Compile Remove="Migrations\20190414025302_added approver table.Designer.cs" />
+    <Compile Remove="Migrations\20190417150149_approver profile.cs" />
+    <Compile Remove="Migrations\20190417150149_approver profile.Designer.cs" />
+    <Compile Remove="Migrations\20190521021727_any.cs" />
+    <Compile Remove="Migrations\20190521021727_any.Designer.cs" />
+    <Compile Remove="Migrations\20190606105028_test.cs" />
+    <Compile Remove="Migrations\20190606105028_test.Designer.cs" />
+    <Compile Remove="Migrations\20200405142315_test.cs" />
+    <Compile Remove="Migrations\20200405142315_test.Designer.cs" />
+    <Compile Remove="Migrations\20200906084001_BuyerBulkPayment.cs" />
+    <Compile Remove="Migrations\20200906084001_BuyerBulkPayment.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GemSto.Domain\GemSto.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore">
+      <HintPath>C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.identity.entityframeworkcore\2.1.1\lib\netstandard2.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
